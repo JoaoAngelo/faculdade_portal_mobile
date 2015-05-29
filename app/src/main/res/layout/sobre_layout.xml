@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    tools:context=".activitys.SobreActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        style="@style/FooterBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5e5e5" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mini_logo_uscs" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#e5e5e5"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/FooterBar"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@color/cinza_uscs" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="10dip"
+            android:text="@string/site_uscs"
+            android:textColor="#6F6F6F" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Versão 1.00 - Experimental"
+        android:textAlignment="center"
+        android:textColor="#6F6F6F"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Portal Acadêmico Mobile"
+        android:textAlignment="center"
+        android:textColor="#6F6F6F"
+        android:textSize="20dip" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Portal Mobile desenvolvido para facilitar o acesso às informações acadêmicas dos estudantes."
+        android:textAlignment="center"
+        android:textColor="#6F6F6F"
+        android:textSize="15dip" />
+
+</RelativeLayout>
